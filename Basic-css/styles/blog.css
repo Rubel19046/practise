@@ -1,0 +1,46 @@
+.header{
+    height: 1500px;
+    background-image: url(IMG20220803135710.jpg);
+    /* background-size: contain; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 2%;
+    color: yellow;
+    background-blend-mode: multiply; 
+    /* background-image: url(./IMG20220803135710.jpg); */
+    /* background-image: url(../WhatsApp\ Image\ 2023-11-16\ at\ 10.59.31\ PM.jpeg); */
+
+    
+}
+h3{
+    color: magenta;
+    text-decoration: underline wavy green;
+
+}
+p{
+    color: blueviolet;
+}
+.page-title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    font-weight: 800;
+}
+a{
+    text-decoration: none;
+}
+span{
+    border: 1px solid;
+    height: 300px;
+    width: 200px;
+    display: block;
+    margin-top: 5px;
+    /* display: none; */
+    
+    /* display: inline block; */
+}
+.blog{
+    background-color: rgb(165, 122, 42);
+    box-shadow: 10px 10pX 10px gray;
+    margin-bottom: 100px;
+    
+}

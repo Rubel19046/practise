@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed selectors</title>
+    <style>
+        .name{
+            color: rgba(5, 65, 18, 0.5);
+        }
+    .yellow-bg{
+        background-color: yellow;
+    }
+    /* paragraph style heading color */
+    p, h3{
+        color: rgb(65, 42, 165);
+    }
+    .hot{
+        color: red;
+    }
+    li.hot{
+        font-weight: 700;
+    }
+    input{
+        display: block;
+        margin-bottom: 5px;
+        /* border-color: darkgreen; */
+    }
+    input[type="text"]{
+        border: 2px solid purple;
+        border-radius: 5px;
+    }
+    </style>
+</head>
+<body>
+    <h3>Mixed selectors</h3>
+    <p>CSS= <span class="name">Casecading style sheet</span> </p>
+    <p>Purpose make website colorful</p>
+    <p>I am exploring CSS</p>
+    <p>Al contrario del pensamiento popular</p>
+    <p class="hot">we denounce with righteous indignation</p>
+    <p>Lorem ipsum dolor sit amet</p>
+    <p>Est explicabo dignissimos non illo autem</p>
+    <p>Nam velit saepe a ipsa inventore aut</p>
+
+    <h3>Different ways to applyv styles</h3>
+    <h4>More heading</h4>
+    <form action="">
+        <input type="text">
+    <input type="password">
+    <input type="submit" value="submit">
+
+    </form>
+
+    <ol>
+        <li>inline style</li>
+        <li><span class="name">Embedded</span> ineternal style</li>
+        <li class="hot">external style</li>
+    </ol>
+
+    <!-- this is my first blog -->
+    <div class="yellow-bg">
+        This is a div with some content
+        <h3>This is my Blog</h3>
+        <p class="hot">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo magnam accusamus dignissimos natus sed quod sit laborum ipsum eius! Alias amet aliquam rerum nobis ex adipisci, quae sit sequi magni nihil non officiis ullam quas reiciendis ipsa nemo fugit rem quo assumenda excepturi praesentium provident doloremque! Repudiandae illum aliquam laboriosam!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut assumenda similique eius. Ullam eveniet dolores soluta alias hic temporibus nisi quae, voluptatem, ad laborum autem! Magnam eius obcaecati suscipit provident dolore earum, neque consequatur ex corrupti pariatur temporibus officia eum? Quidem voluptate pariatur beatae ut, ducimus incidunt voluptatum labore quas nihil, unde aspernatur, similique reiciendis aliquid? Esse, et? Nobis, eos.</p>
+    </div>
+
+</body>
+</html>
